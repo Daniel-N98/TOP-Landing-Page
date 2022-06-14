@@ -3,3 +3,182 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.center {
+    width: 50%;
+    margin: auto;
+}
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+nav #logo{
+    color: red;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    flex-grow: 0.1;
+    margin-top: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#h-left h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+}
+
+#h-left p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#h-left button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+
+    border: none;
+    border-radius: 5px;
+    
+    margin-top: 10px;
+
+    width: 90px;
+    height: 25px;
+
+    transition: 0.3s ease-in-out;
+}
+
+
+#h-right .placeholder-img {
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    margin: 40px 0;
+}
+
+#sec-two {
+    text-align: center;
+    padding: 70px 0px 100px 0;
+}
+
+#icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    margin: 0 35px 0 35px;
+}
+
+#sec-two h3 {
+    font-size: 32px;
+}
+
+.placeholder-div {
+    border: 3px solid blue;
+    border-radius: 10px;
+    margin: 40px 0 15px 0;
+    width: 130px;
+    height: 130px;
+}
+
+#sec-three {
+    background-color: #E5E7EB;    
+    padding: 70px 0px 100px 0;
+}
+
+#sec-three em {
+    font-size: 36px;
+}
+
+#sec-three p {
+    font-weight: bold;
+    float: right;
+}
+
+#sec-four {  
+    padding: 70px 0px 100px 0;
+}
+
+.background {
+    background-color: #3882F6;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+}
+
+.background .cta {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.background p {
+    color: white;
+    font-size: 14px;
+    margin-right: 100px;
+}
+
+.background button {
+    border: 1px solid white;
+    background-color: #3882F6;
+    border-radius: 5px;
+    width: 90px;
+    height: 25px;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+#h-left button:hover, button:hover {
+    cursor: pointer;
+    background-color: #224f97;
+    border: 1px solid white;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 20px 0px 20px 0;
+}
