@@ -131,10 +131,11 @@ nav ul li a {
 #sec-three p {
     font-weight: bold;
     float: right;
+    margin-top: 40px;
 }
 
 #sec-four {  
-    padding: 70px 0px 100px 0;
+    padding: 70px 0px 70px 0;
 }
 
 .background {
